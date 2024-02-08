@@ -1,5 +1,5 @@
 {% set name = "typedframe" %}
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/typedframe-{{ version }}.tar.gz
-  sha256: 8a98dcf80c181120ff678477a6fdd05c9004f37d62f119511070ff3e621211c2
+  sha256: d77c12369a0954a305f2e912c433367235d36c61d2f3b37090a8ad6ec4285443
 
 build:
   noarch: python
